@@ -7,5 +7,5 @@ end
 
 desc "run client via curl"
 task :client do
-  sh "curl localhost:9292"
+  sh "curl -v localhost:9292"
 end
